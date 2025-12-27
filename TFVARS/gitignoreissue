@@ -1,0 +1,7 @@
+<!-- 
+So after git ignore also code is not pushing then follow these steps from the repository folder
+rm -rf .git
+git init
+git branch -M main
+git remote add origin URL OF REPOSITORY
+git add . ; git commit -m "Terraform" ; git push origin main -->
