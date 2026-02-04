@@ -44,3 +44,10 @@ resource "aws_security_group" "Devops" {
     }
   )
 }
+
+#COMMANDS
+#TO CREATE NEW WORKSPACE - terraform workspace new dev or prod or whatever #NEW EMPTY STATE FILE WILL BE CREATED
+#TO CHANGE WORK SPACE - terraform workspace select prod
+#TO SHOW CURRENT WORKSPACE - terraform workspace show
+#TO LIST ALL WORKSPACES - terraform workspace list
+#TO DELETE WORKSPACE - terraform workspace delete prod #CANNOT DELETE CURRENT WORKSPACE
