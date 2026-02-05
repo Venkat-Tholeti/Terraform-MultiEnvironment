@@ -51,3 +51,5 @@ resource "aws_security_group" "Devops" {
 #TO SHOW CURRENT WORKSPACE - terraform workspace show
 #TO LIST ALL WORKSPACES - terraform workspace list
 #TO DELETE WORKSPACE - terraform workspace delete prod #CANNOT DELETE CURRENT WORKSPACE
+
+#terraform.workspace -> this is variable assigned by terraform workspace
